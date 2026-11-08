@@ -1,0 +1,24 @@
+#ifndef _Draw_Extensions_Extensions_h_
+#define _Draw_Extensions_Extensions_h_
+
+#include <Core/Core.h>
+#include <Draw/Draw.h>
+
+#undef Complex
+#undef None
+
+NAMESPACE_UPP
+
+#include "SimpleImage.h"
+#include "DrawBackend.h"
+#include "Factory.h"
+#include "FFT.h"
+#include "Sdl2.h"
+#include "Various.h"
+#include "Binder.h"
+#include "Draw2D.h"
+#include "DrawCommand.h"
+
+END_UPP_NAMESPACE
+
+#endif

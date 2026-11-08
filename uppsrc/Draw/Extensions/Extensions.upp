@@ -1,0 +1,36 @@
+description "\377B128,0,255";
+
+library(POSIX) png;
+
+library(SDL2 & WIN32 & MSC) "SDL2 SDL2_ttf SDL2_image";
+library(SDL2 & WIN32 & !MSC) "SDL2 SDL2_ttf SDL2_image";
+library(SDL2 & POSIX) "SDL2 SDL2_ttf SDL2_image";
+
+file
+	AGENTS.md,
+	Extensions.h,
+	Extensions.cpp,
+	SimpleImage.h,
+	SimpleImage.cpp,
+	Factory.h,
+	Factory.cpp,
+	FFT.h,
+	FFT1.cpp,
+	FFT2.cpp,
+	Binder.h,
+	Binder.cpp,
+	DrawBackend.h,
+	DrawBackend.cpp,
+	Draw2D.h,
+	DrawCommand.h,
+	DrawCommand.cpp,
+	Backends readonly separator,
+	Sdl2.h,
+	Sdl2.cpp,
+	Various.h,
+	Various.cpp,
+	Lib readonly separator,
+	tga_reader.h,
+	tga_reader.c,
+	_ readonly separator;
+

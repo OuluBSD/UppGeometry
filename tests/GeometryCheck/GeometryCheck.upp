@@ -1,0 +1,12 @@
+description "Geometry Core Mathematical Verification Probe\377";
+
+uses
+	Core,
+	Draw,
+	Geometry;
+
+file
+	GeometryCheck.cpp;
+
+mainconfig
+	"" = "";
